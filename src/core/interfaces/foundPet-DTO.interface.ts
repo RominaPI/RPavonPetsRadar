@@ -10,5 +10,6 @@ export interface FoundPetDTO {
     finder_name: string,
     finder_email: string,
     finder_phone: string,
-    location: {lat: number, lon: number}
+    location: {lat: number, lon: number},
+    address: string
 }
